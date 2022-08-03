@@ -1,4 +1,4 @@
-#Code:
+#Code:https://github.com/akhilpsin/Tabula_pdf_table_extraction/tree/main/Updatedcode_08.03.22
 
 import tabula
 import requests
@@ -36,7 +36,7 @@ with pdfplumber.open(file) as pdf:
             liness=text.split('\n')
             lines+=liness
         
-            
+'''https://github.com/akhilpsin/Tabula_pdf_table_extraction '''           
 for li in lines:
     if "Port:"in li:
         li=li.replace("Port:","").strip()
@@ -97,6 +97,8 @@ print("Sucessfully generated output CSV")
 
 '''
 For folder/directory Structure :
-<<<
+<<<https://github.com/akhilpsin/Tabula_pdf_table_extraction/tree/main/Updatedcode_08.03.22
+For breakdown of code
+<<<https://github.com/akhilpsin/Tabula_pdf_table_extraction/tree/main/IndividualCode
 '''
 
